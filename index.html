@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+        <title>Catrinas - Mexican Grill & Bar</title>
+        <meta name="keywords" content="HTML5,CSS3,HTML,Template,Themeton">
+        <meta name="description"
+            content="Catrinas - Mexiczn Grill & Bar">
+        <meta name="author" content="Themeton">
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/x-icon"
+            href="images/favicon.png" />
+
+        <!-- Fonts -->
+        <link
+            href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic%7CPlayball%7CMontserrat:400,700'
+            rel='stylesheet' type='text/css'>
+        <link
+            href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic'
+            rel='stylesheet' type='text/css'>
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" type="text/css"
+            href="vendors/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css"
+            href="vendors/bootstrap/css/bootstrap-theme.min.css">
+
+        <!-- Fontawesome -->
+        <link rel="stylesheet" type="text/css"
+            href="vendors/font-awesome/css/font-awesome.min.css">
+
+        <!-- Swiper -->
+        <link rel="stylesheet" type="text/css"
+            href="vendors/swiper/css/swiper.min.css">
+
+        <!-- Magnific-popup -->
+        <link rel="stylesheet" type="text/css"
+            href="vendors/magnific-popup/magnific-popup.css">
+
+        <!-- Stylesheet -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <style>
+            .fullscreen-section-1 {
+                position: relative;
+                width: 100%; /* Ajusta al tamaño que necesites */
+                height: 400px; /* Ajusta al tamaño que necesites */
+                /*background-image: url('images/pre-footer-catrina.png');*/
+                background-size: cover;
+                background-position: center;
+            }
+    
+            .fullscreen-section-1::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: rgba(0, 0, 0, 0.725); /* Ajusta la opacidad aquí */
+            }
+    
+            .pv14-1 { /* Aquí puedes agregar otros estilos específicos para .pv14 */
+                padding-top: 14px;
+                padding-bottom: 14px;
+            }
+            .menu-full-bg {
+                /* Configuración de la imagen de fondo */
+                background-image: url('images/catrina-header.png');
+                background-size: cover;
+                background-position: center;
+                position: relative;
+            }
+
+            .menu-full-bg::before {
+                /* Superposición para oscurecer la imagen */
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: rgba(0, 0, 0, 0.725); /* Ajusta la opacidad aquí */
+                z-index: 0;
+            }
+
+            .topbar {
+                position: relative;
+                z-index: 2; /* Asegúrate de que el contenido del topbar esté por encima de la superposición */
+            }
+
+            /* Asegurarse de que los enlaces y el contenido estén accesibles y visibles */
+            #logo {
+                display: block;
+                background-image: url('images/logo-catrina.JPG');
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 300px; /* O el tamaño que prefieras */
+                height: 100px; /* Ajusta según la altura del logo */
+                text-indent: -9999px; /* Oculta el texto si solo quieres mostrar la imagen */
+            }
+        </style>
+
+    </head>
+
+    <body>
+
+        <div class="wrapper">
+
+            <header id="header"
+                class="menu-full-bg"
+                data-bg-image="images/catrina-header.png">
+                    <div class="topbar">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-m-12">
+                                <a href="./" id="logo" title="Catrinas"
+                                    class="logo-image" data-width="300px"
+                                    data-bg-image="images/logo-catrina.JPG">Catrinas</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <!-- Cover Content -->
+                <div class="full-section pv14">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="home5-caption text-center">
+                                    <div class="mv2"><img
+                                            src="images/svg/spoon-fork.svg"
+                                            data-width="114px"
+                                            alt="svg image"></div>
+                                    <h2>Mexican Grill and Bar:</h2>
+                                    <h4>Where every dish tells a story. Come discover yours!</h4>
+                                    <div class="mv4"><img
+                                            src="images/svg/h5-symbol.svg"
+                                            alt="svg image"
+                                            data-width="284px"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- //Cover Content -->
+
+                <div class="pv4"></div>
+
+                <!-- //Menu Container -->
+                <div class="menu-container">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+
+                                <div class="header-wrapper">
+
+                                    <nav class="main-nav">
+                                        <ul>
+
+                                            <li><a
+                                                    href="index.html">Home</a></li>
+                                            <li><a
+                                                    href="#aboutUs">About</a></li>
+
+                                            <li><a
+                                                    href="#menu">Menu</a></li>
+                                        </ul>
+
+                                        <a href="javascript:;" id="mobile-menu">
+                                            Menu
+                                            <span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                            </span>
+                                        </a>
+                                        <a href="javascript:;"
+                                            id="close-menu"></a>
+                                    </nav>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- //Menu Container -->
+
+            </header>
+
+            <section class="section-content">
+
+                <div class="content-full">
+
+                    <div class="fullscreen-section">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div
+                                    class="col-sm-6 pv14 ph5 bg-cover bg-center-top"
+                                    data-bg-image="images/catrina.png">
+                                    <div class="visible-hidden">
+                                        <div class="heading text-center">
+                                            <h3>About Us</h3>
+                                            <h4>Our Story</h4>
+                                            <div class="line img-icon">
+                                                <img
+                                                    src="images/svg/cook-hat.svg"
+                                                    data-width="20px"
+                                                    alt="svg icon">
+                                            </div>
+                                        </div>
+
+                                        <p>
+                                            Welcome to Mexican Grill and Bar, where the vibrant flavors of Mexico come alive. We are driven by a passion for authentic Mexican cuisine and a commitment to sharing it with the world. Our restaurant offers a cozy, inviting atmosphere where every meal is a celebration of rich culinary traditions.
+
+At Mexican Grill and Bar, we pride ourselves on using only the freshest ingredients to create dishes that reflect the diverse regions of Mexico. From the sizzling fajitas to our handcrafted margaritas, every dish is prepared with attention to detail and a dash of love.
+
+Our founders, inspired by their extensive travels across Mexico, envisioned a place where people could gather and experience the warmth of Mexican hospitality. Mexican Grill and Bar is more than just a restaurant; it's a destination where friends and family can enjoy great food, share laughs, and create memorable moments.
+                                        </p>
+
+                                        <br />
+                                        <p>
+                                            <!--a href="javascript:;"
+                                                class="button small go">Read
+                                                More</a-->
+                                        </p>
+                                    </div>
+                                </div>
+                                <div id="aboutUs" class="col-sm-6 pv14 ph5 text-center"
+                                    data-bg-color="#f9f9f9">
+                                    <div class="heading text-center">
+                                        <h3>About Us</h3>
+                                        <h4>Our Story</h4>
+                                        <div class="line img-icon">
+                                            <img src="images/svg/cook-hat.svg"
+                                                data-width="20px"
+                                                alt="svg icon">
+                                        </div>
+                                    </div>
+
+                                    
+                                        <p> 
+                                            Welcome to Mexican Grill and Bar, where the vibrant flavors of Mexico come alive.
+                                            We are driven by a passion for authentic Mexican cuisine and a commitment to sharing it with the world. 
+                                            Our restaurant offers a cozy, inviting atmosphere where every meal is a celebration of rich 
+                                            culinary traditions.
+                                        </p>
+                                        <p>
+                                            At Mexican Grill and Bar, we pride ourselves on using only the freshest ingredients to create 
+                                            dishes that reflect the diverse regions of Mexico. 
+                                            From the sizzling fajitas to our handcrafted margaritas, 
+                                            every dish is prepared with attention to detail and a dash of love.
+                                        </p>
+                                        <p>
+                                            Our founders, inspired by their extensive travels across Mexico, 
+                                            envisioned a place where people could gather and experience the warmth of Mexican hospitality. 
+                                        </p>
+                                        <p>
+                                            Mexican Grill and Bar is more than just a restaurant; 
+                                            it's a destination where friends and family can enjoy great food, share laughs, 
+                                            and create memorable moments.
+                                        </p>
+                                    
+
+                                    <br />
+                                    <p>
+                                        <!--a href="javascript:;"
+                                            class="button small go">Read
+                                            More</a-->
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="menu" class="fullscreen-section pv12" style="background-color: black;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6 col-md-offset-3">
+
+                                    <div class="heading text-center">
+                                        <h3>Hungry?</h3>
+                                        <h4>Our Menu</h4>
+                                        <div class="line img-icon">
+                                            <img src="images/svg/food-spot.svg"
+                                                alt="svg icon">
+                                        </div>
+                                    </div>
+
+                                    <p class="text-center">
+
+                                        <div class="image-container">
+                                            <img src="images/menu/MENU-Catrinas-01-scaled.jpg" alt="">
+                                        </div>
+                                        <div class="image-container">
+                                        <img src="images/menu/MENU-Catrinas-02-scaled.jpg" alt="">
+                                    </div>
+                                    <div class="image-container">
+                                        <img src="images/menu/MENU-Catrinas-03-scaled.jpg" alt="">
+                                    </div>
+                                    <div class="image-container">
+                                        <img src="images/menu/MENU-Catrinas-04-scaled.jpg" alt="">
+                                    </div>
+                                    <div class="image-container">
+                                        <img src="images/menu/MENU-Catrinas-05-scaled.jpg" alt="">
+                                    </div>
+                                    <div class="image-container">
+                                        <img src="images/menu/MENU-Catrinas-06-scaled.jpg" alt="">
+                                    </div>
+                                    <div class="image-container">
+                                        <img src="images/menu/MENU-Catrinas-07-scaled.jpg" alt="">
+                                    </div>
+                                    <div class="image-container">
+                                        <img src="images/menu/MENU-Catrinas-08-scaled.jpg" alt="">
+                                    </div>
+                                    <div class="image-container">
+                                        <img src="images/menu/MENU-Catrinas-09-scaled.jpg" alt="">
+                                    </div>
+                                    <div class="image-container">
+                                        <img src="images/menu/MENU-Catrinas-10-scaled.jpg" alt="">
+                                    </div>
+                                        
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                  
+                    <div class="fullscreen-section" data-bg-color="#000">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-8 ph0">
+
+                                    <div id="tt-google-map"
+                                        class="tt-google-map"
+                                        data-lat="43.17772507654389"
+                                        data-lng="-89.26535271817271" data-zoom="16"
+                                        data-saturation="-100" data-color="#333"
+                                        data-marker="images/svg/marker.svg">
+                                        <div id="gmap_content">
+                                            <div class="gmap-item">
+                                                <label class="label-title">Keep
+                                                    in Touch</label>
+                                            </div>
+                                            <div class="gmap-item">
+                                                <label>
+                                                    <i
+                                                        class="fa fa-map-marker"></i>
+                                                </label>
+                                                <span>Address : 190 N Grand Ave, Sun Prairie, WI 53590</span>
+                                            </div>
+                                            <div class="gmap-item">
+                                                <label>
+                                                    <i class="fa fa-phone"></i>
+                                                </label>
+                                                <span>Phone: (608) 318-0533</span>
+                                            </div>
+                                            <div class="gmap-item">
+                                                <label>
+                                                    <i
+                                                        class="fa fa-envelope"></i>
+                                                </label>
+                                                <span>Email:
+                                                    info@example.com</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-4">
+
+                                    <div class="row pv5 text-light mv10 ph4">
+                                        <div class="col-sm-6">
+                                            <h6>LOCATION</h6>
+                                            <small>
+                                                190 N Grand Ave, Sun Prairie, WI 53590 <br>
+                                            </small>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <h6>WORKING HOURS</h6>
+                                            <small>
+                                                Monday - Friday<br>
+                                                <span class="color-brand">9.00
+                                                    am to 11.00 pm</span>
+                                            </small>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        class="fullscreen-section-1 pv14-1"
+                        data-bg-image="images/catrina-footer.png">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 text-center">
+                                    <img src="images/logo-catrina.JPG"
+                                        alt="svg logo" data-width="200px">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <script type="text/javascript" src="js/google-maps.js"></script>
+            <script async defer
+                src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>
+
+            <footer id="footer" class="footer-5">
+
+                <div class="sub-footer">
+                    <div class="container">
+                        <div class="row copyright-text">
+                            <div class="col-sm-12 text-center">
+                                <p class="mv3 mvt0">&copy; Copyrights 2024
+                                    Tech Solutions. All rights reserved</p>
+                                <!-- <div class="social-links">
+                                    <a href="javascript:;"><i
+                                            class="fa fa-facebook"></i></a>
+                                    <a href="javascript:;"><i
+                                            class="fa fa-twitter"></i></a>
+                                    <a href="javascript:;"><i
+                                            class="fa fa-google-plus"></i></a>
+                                    <a href="javascript:;"><i
+                                            class="fa fa-instagram"></i></a>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <!-- Overlay Search -->
+        <div id="overlay-search">
+            <form method="get" action="./">
+                <input type="text" name="s" placeholder="Search..."
+                    autocomplete="off">
+                <button type="submit">
+                    <i class="fa fa-search"></i>
+                </button>
+                <p>Begin typing and hit enter to search...</p>
+            </form>
+            <a href="javascript:;" class="close-search"></a>
+        </div>
+
+        <!-- Include jQuery and Scripts -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript"
+            src="vendors/bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript"
+            src="vendors/jquery.waypoints.min.js"></script>
+        <script type="text/javascript"
+            src="vendors/isotope.pkgd.min.js"></script>
+
+        <!-- Swiper -->
+        <script type="text/javascript"
+            src="vendors/swiper/js/swiper.min.js"></script>
+
+        <!-- Magnific-popup -->
+        <script type="text/javascript"
+            src="vendors/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+        <script type="text/javascript" src="js/scripts.js"></script>
+
+    </body>
+</html>
